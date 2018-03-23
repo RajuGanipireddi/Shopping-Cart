@@ -8,12 +8,8 @@
 </head>
 <body>
 <h1 style="background-color:Gray;"><div align="center"><font color ="white">Online Shop</font></div></h1>
-
-
 <div align="center">
-  <a href="${pageContext.request.contextPath}/Home.jsp">Home</a>|
-   <a href="${pageContext.request.contextPath}/ProductList.jsp">Product List</a>|
-   <a href="${pageContext.request.contextPath}/ShoppingCart.jsp">My  Cart</a>
-   </div>
- </body>
+If existing user please : <a href="Login.jsp">Login</a> || <a href="Register.jsp">New User Registration</a>||<a href="ManagerLogin.jsp">Manager Login</a>
+</div>
+</body>
 </html>

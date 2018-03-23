@@ -8,12 +8,15 @@
 </head>
 <body>
 <h1 style="background-color:Gray;"><div align="center"><font color ="white">Online Shop</font></div></h1>
-
-
 <div align="center">
-  <a href="${pageContext.request.contextPath}/Home.jsp">Home</a>|
-   <a href="${pageContext.request.contextPath}/ProductList.jsp">Product List</a>|
-   <a href="${pageContext.request.contextPath}/ShoppingCart.jsp">My  Cart</a>
-   </div>
- </body>
+<form action=${pageContext.request.contextPath}/login>
+<table>
+<h2>Please Login to Continue Unlimited shopping </h2>
+<tr><td>User Name:<input type="text" name="uname"/></td></tr></br>
+<tr><td>Password : <input type="password" name="pwd"/></td></tr></br>
+</table>
+<input type="submit" value="Login"/>
+</form>
+</div>
+</body>
 </html>
